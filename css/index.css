@@ -1,4 +1,5 @@
 body {
+    max-width: 1250px;
     margin: 0 auto;
     padding:0px;
     font-family: 'Fredoka One', cursive;
@@ -17,6 +18,7 @@ header, main, footer {
 .topnav {
     background-color: #171819;
     overflow: hidden;
+    width: 1250px;
 }
 .topnav a {
     float: left;
@@ -41,14 +43,13 @@ header, main, footer {
     display: block;
     text-align: center;
     background-color: rgb(236,189,49);
-    max-width: 1250px;
+    width: 1250px;
     
 }
 #home {
     display: block;
     width: 1250px;
     background-color: rgb(236,189,49);
-    background-position: center bottom, left top;
     background-repeat: repeat-x;
     overflow: hidden;
     
@@ -79,8 +80,9 @@ header, main, footer {
 
 }
 .photo-inner img {
-    height:204px; 
-    width:168px;
+    height:182px; 
+    width:171px;
+    border-radius: 50%;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 .personal-info {
