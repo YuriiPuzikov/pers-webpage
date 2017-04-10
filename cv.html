@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>CV</title>
     <link rel="stylesheet" href="css/curriculum.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/icon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
@@ -126,7 +127,8 @@
         </div>
         <div id="feedbacks">
             <h1 class="heading">Feedback</h1>
-            <div class="feedback">
+            <div class="main-carousel" data-flickity='{ "cellAlign": "left", "autoPlay": 7000, "contain": true }'>
+            <div class="carousel-cell">
                 <div class="photoContainer">
                     <img src="img/vsevolod.png" alt="vsevolod" class="feedbackPhoto">
                 </div>
@@ -136,7 +138,7 @@
 Business development manager </p>
                 </div>
             </div>
-            <div class="feedback">
+            <div class="carousel-cell">
                 <div class="photoContainer">
                     <img src="img/Larry.jpg" alt="larry" class="feedbackPhoto">
                 </div>
@@ -146,7 +148,7 @@ Business development manager </p>
 Key Account Manager  </p>
                 </div>
             </div>
-            <div class="feedback">
+            <div class="carousel-cell">
                 <div class="photoContainer">
                     <img src="img/customer.jpg" alt="customer" class="feedbackPhoto">
                 </div>
@@ -154,6 +156,7 @@ Key Account Manager  </p>
                     <p class="feedbackItself">"Technician was extremely helpful. He was VERY with any questions I had. He was very professional and knew exactly what he was doing. He probably needs a raise because he was able to talk me into getting the unlimited addition. I might add I am not easily sold".</p>
                     <p class="fromWhom">Lorraine Hotchkies</p>
                 </div>
+            </div>
             </div>
         </div>
     </main>
@@ -169,5 +172,6 @@ Key Account Manager  </p>
         </div>
         <div id="rights"><p>2017 all rights reserved.</p></div>
     </footer>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
