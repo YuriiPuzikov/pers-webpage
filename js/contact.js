@@ -1,38 +1,23 @@
- /**
-   * @section BXSLIDER
-   */
-  /**
-   * @subsection FEEDBACK SLIDER
-   */
-  var feedbackSlider = $('.js-feedback-slider').bxSlider({
-    mode: 'fade',
-    pager: false,
+$(function() {
+  $('.submit').click(sendForm);
+})
 
-    auto: true,
-    paude: 100000,
-    autoHover: true,
 
-    controls: false,
 
-    onSliderLoad: function() {
-      /**
-       * bxslider next/prev svg button
-       */
-      $.get("/img/svg/arrow_right.svg", function(data) {
-        $('#feedback__slider-next').html(data.documentElement);
-      });
-      $.get("/img/svg/arrow_left.svg", function(data) {
-        $('#feedback__slider-prev').html(data.documentElement);
-      });
-    }
-  });
+function sendForm(e) {
+    e.preventDefault();
+    $.ajax({
+        url: "https://formspree.io/sai_puzikov@hotmail.com", 
+        method: "POST",
+        data: {
+          name: $('#name').val(),
+          email: $('#email').val(),
+          message: $('#message').val()
+        },
+        dataType: "json"
+    })
+    .done(function() { 
+      $('.form').html('<img src="img/okey.png" alt="ok" id="okey"> <p>Received!</p>');
+    });
 
-  $('#feedback__slider-next').click(function() {
-    feedbackSlider.goToNextSlide();
-    return false;
-  });
-
-  $('#feedback__slider-prev').click(function() {
-    feedbackSlider.goToPrevSlide();
-    return false;
-  });
+}
