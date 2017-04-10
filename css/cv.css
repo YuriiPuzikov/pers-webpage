@@ -2,6 +2,7 @@ body {
     max-width: 1250px;
     margin: 0 auto;
     padding:0px;
+    display:block;
     font-family: 'Fredoka One', cursive;
     background-image:url(../img/background.body.png);
 }
@@ -24,7 +25,8 @@ body {
 .topnav {
     background-color: #171819;
     overflow: hidden;
-    width: 1250px;
+    max-width: 1250px;
+    width:100%;
 }
 .topnav a {
     float: left;
@@ -49,7 +51,8 @@ body {
     display: block;
     text-align: center;
     background-color: rgb(236,189,49);
-    width: 1250px;
+    max-width: 1250px;
+    width:100%;
     
 }
 
@@ -88,8 +91,10 @@ body {
 }
 
 .company-icon img {
-    height: 90px;
-    width: 100px;
+    max-height: 90px;
+    max-width: 100px;
+    height:100%;
+    width:100%;
 }
 
 .description {
@@ -97,7 +102,7 @@ body {
 }
 
 .company {
-     text-align:left;
+    text-align:left;
     font-size: 20px;
     background-color:black;
     color: #F6F6F6;
@@ -107,7 +112,7 @@ body {
 }
 
 .dates {
-       text-align:left;
+    text-align:left;
     font-size: 15px;
     background-color:black;
     color: #F6F6F6;
@@ -120,12 +125,13 @@ body {
  height:230px;
  width:180px;
  margin: 60px;
+ text-align: center;
 }
 .photofeedback {
     float:left;
 }
 #feedback {
-   height:550px;
+   height:800px;
 }
 #feedback p:first-of-type {
     font-family: 'Architects Daughter', cursive;

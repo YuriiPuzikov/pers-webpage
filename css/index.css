@@ -1,14 +1,9 @@
 body {
-    max-width: 1250px;
     margin: 0 auto;
     padding:0px;
     font-family: 'Fredoka One', cursive;
     background-image:url(../img/background.body.png);
-}
-header, main, footer {
     max-width: 1250px;
-    display:block;
-    margin: 0 auto;
 }
 
 .heading {
@@ -18,7 +13,8 @@ header, main, footer {
 .topnav {
     background-color: #171819;
     overflow: hidden;
-    width: 1250px;
+    max-width: 1250px;
+    width: 100%;
 }
 .topnav a {
     float: left;
@@ -43,22 +39,25 @@ header, main, footer {
     display: block;
     text-align: center;
     background-color: rgb(236,189,49);
-    width: 1250px;
+    max-width: 1250px;
+    width: 100%;
     
 }
 #home {
     display: block;
-    width: 1250px;
     background-color: rgb(236,189,49);
     background-repeat: repeat-x;
     overflow: hidden;
+    max-width: 1250px;
+    width: 100%;
     
 }
 .about {
     float:left;
     margin-left: 20px;
-    width: 630px;
     margin-bottom: 30px;
+    max-width: 630px;
+    width: 100%;
 }
 .about h1 {
     font-weight: 900;
@@ -80,10 +79,12 @@ header, main, footer {
 
 }
 .photo-inner img {
-    height:182px; 
-    width:171px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    max-height:182px; 
+    max-width:171px;
+    height:100%;
+    width:100%;
 }
 .personal-info {
     float:left;
