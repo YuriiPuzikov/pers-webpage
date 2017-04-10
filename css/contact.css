@@ -5,16 +5,12 @@ body {
     font-family: 'Fredoka One', cursive;
     background-image:url(../img/background.body.png);
 }
-header, main, footer {
-    max-width: 1250px;
-    display:block;
-    margin: 0 auto;
-}
 
 .heading {
     font-size: 70px;
     text-align:center;
 }
+
 .topnav {
     background-color: #171819;
     overflow: hidden;
@@ -46,82 +42,42 @@ header, main, footer {
     width: 1250px;
     
 }
-#home {
+
+#map {
     display: block;
-    width: 1250px;
-    background-color: rgb(236,189,49);
-    background-repeat: repeat-x;
-    overflow: hidden;
-    
+    border:solid;
+    border-color:black;
+    box-sizing: border-box;
+    width:1250px;
+    border-radius: 15px 15px;
 }
-.about {
-    float:left;
-    margin-left: 20px;
-    width: 630px;
-    margin-bottom: 30px;
-}
-.about h1 {
-    font-weight: 900;
-    color: #FFF;
-    line-height: 34px;
-    margin-top: 8px;
-    margin-bottom: 0; 
-    padding-bottom: 0;
-}
-.about h3 {
-    font-size: 18px;
-    color: #FFF;
-    line-height: 18px;
-}
-.photo-inner {
-    margin-right:20px;
-    float:left;
-    padding: 12px 0 0 20px;
 
+#map iframe {
+    display:block;
+    border-radius: 15px 15px;
+    width:1245px;
 }
-.photo-inner img {
-    height:182px; 
-    width:171px;
-    border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-}
-.personal-info {
-    float:left;
-    margin-left: 10px;
-}
-#personal-info1 {
-    border-left: groove;
-    border-color: black;
-    float:left;
-    list-style-type: none;
-    color:rgb(236,189,49);
-}
-#personal-info1 li {
-    padding: 4px 7px;
-    border-radius: 3px;
-    margin-bottom:10px;
+
+h2 {
+    text-align:left;
+    font-size: 25px;
     background-color:black;
+    color: #F6F6F6;
+    width:215px;
+    padding:5px;
+    border-radius: 15px 50px 30px;
 }
 
-#personal-info2 {
-    float:left;
-    list-style-type: none;
-    font-family: 'Fredoka One';
-}
-#personal-info2 li {
-    padding: 4px 7px;
-    border-radius: 3px;
-    width: 170px;
-    margin-bottom:10px;
+ul {
+    list-style: none;
 }
 
-main {
-    display:block;
-}
-
-
-footer {
-    display:block;
+.form {
+    background-color: rgb(236,189,49);
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 input[type=text], select {
