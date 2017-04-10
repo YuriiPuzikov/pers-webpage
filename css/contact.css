@@ -56,6 +56,9 @@ body {
     display:block;
     border-radius: 15px 15px;
     width:1245px;
+    height:400px;
+    border:0px;
+    
 }
 
 h2 {
