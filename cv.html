@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>CV</title>
     <link rel="stylesheet" href="css/curriculum.css">
+    <link rel="stylesheet" media="(min-width: 800px)" href="css/cv-layout/lg-layout.css">
+    <link rel="stylesheet" media="(max-width: 799px)" href="css/cv-layout/sm-layout.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/icon.png" type="image/x-icon">
@@ -19,7 +21,9 @@
                 <a href="contact.html">Contact</a>
             </div>
         </nav>
-        <img src="img/rsz_header.png" id="headerimg" alt="headerimg">
+        <div id="headerContainer">
+            <img src="img/rsz_header.png" id="headerimg" alt="headerimg">
+        </div>
     </header> 
     <main>
         <div id="cv">
@@ -112,22 +116,22 @@
                 </div>
             </div>
         </div>
-        <div id="topskills">
+        <div>
             <h1 class="heading">Top skills</h1>
-            <p>
+            <div id="skillsContainer">
                 <img src="img/Salesp.png" alt="sales"> 
-                <img src="img/stplanningp.png" alt="stragetic planning"> 
+                <img src="img/stplanningp.png" alt="stragetic planning">
                 <img src="img/customersupportp.png" alt="customer support">
                 <img src="img/troubleshootp.png" alt="troubleshooting">
                 <img src="img/Managementp.png" alt="Management"> 
                 <img src="img/coachingp.png" alt="coaching"> 
                 <img src="img/persuasionp.png" alt="persuasion">
                 <img src="img/english.png" alt="english">
-            </p>
+            </div>
         </div>
         <div id="feedbacks">
             <h1 class="heading">Feedback</h1>
-            <div class="main-carousel" data-flickity='{ "cellAlign": "left", "autoPlay": 7000, "contain": true }'>
+            <div class="main-carousel" data-flickity='{ "cellAlign": "left", "autoPlay": 4000, "contain": true }'>
             <div class="carousel-cell">
                 <div class="photoContainer">
                     <img src="img/vsevolod.png" alt="vsevolod" class="feedbackPhoto">

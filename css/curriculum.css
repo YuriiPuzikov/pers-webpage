@@ -1,5 +1,4 @@
 body {
-    max-width: 1250px;
     margin: 0 auto;
     padding:0px;
     display:block;
@@ -17,14 +16,13 @@ body {
     background-color:black;
     color: #F6F6F6;
     width:215px;
-    padding:5px;
+    padding:15px;
     border-radius: 15px 50px 30px;
 }
 
 .topnav {
     background-color: #171819;
     overflow: hidden;
-    max-width: 1250px;
     width: 100%;
 }
 .topnav a {
@@ -50,7 +48,6 @@ body {
     display: block;
     text-align: center;
     background-color: rgb(236,189,49);
-    max-width: 1250px;
     width:100%;
     
 }
@@ -81,12 +78,6 @@ body {
     border-radius: 0px 0px 50px 30px;
     color:black;
     margin-bottom: 15px;
-}
-
-.company-icon {
-    width:9%;
-    margin-top:10px;
-    float:left;
 }
 
 .company-icon img {
@@ -122,11 +113,9 @@ body {
     border-radius: 15px 50px 30px;  
 }
 
-#topskills img {
- height:230px;
- width:180px;
- margin: 60px;
- text-align: center;
+#skillsContainer img{
+    text-align: center;
+    margin: 2%;
 }
 
 #feedbacks {
@@ -135,7 +124,7 @@ body {
 
 .carousel-cell {
   width: 100%;
-  height: 500px;
+  height: 560px;
   margin-right: 10px;
 }
 .flickity-prev-next-button {
@@ -152,10 +141,6 @@ body {
 .feedbackItself {
     font-family: 'Architects Daughter', cursive;
     font-size:1.3rem;
-}
-
-.fromWhom {
-    margin-left:75%;
 }
 
 #links {
