@@ -115,7 +115,10 @@ body {
 
 #skillsContainer img{
     text-align: center;
-    margin: 2%;
+    height:225px;
+    width: 187px;
+    margin: 4%;
+    
 }
 
 #feedbacks {

@@ -1,0 +1,13 @@
+body {
+    max-width: 599px;
+}
+
+.photo-inner {
+    padding: 12px 0 0 20px;
+    text-align: center;
+
+}
+
+.about {
+    text-align:center;
+}

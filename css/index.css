@@ -3,7 +3,6 @@ body {
     padding:0px;
     font-family: 'Fredoka One', cursive;
     background-image:url(../img/background.body.png);
-    max-width: 1250px;
 }
 
 .heading {
@@ -38,7 +37,6 @@ body {
     display: block;
     text-align: center;
     background-color: rgb(236,189,49);
-    max-width: 1250px;
     width: 100%;
     
 }
@@ -47,14 +45,11 @@ body {
     background-color: rgb(236,189,49);
     background-repeat: repeat-x;
     overflow: hidden;
-    max-width: 1250px;
     width: 100%;
     
 }
 .about {
     float:left;
-    margin-left: 20px;
-    margin-bottom: 30px;
     max-width: 630px;
     width: 100%;
 }
@@ -71,12 +66,7 @@ body {
     color: #FFF;
     line-height: 18px;
 }
-.photo-inner {
-    margin-right:20px;
-    float:left;
-    padding: 12px 0 0 20px;
 
-}
 .photo-inner img {
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
