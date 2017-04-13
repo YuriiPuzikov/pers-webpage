@@ -113,14 +113,6 @@ body {
     border-radius: 15px 50px 30px;  
 }
 
-#skillsContainer img{
-    text-align: center;
-    height:225px;
-    width: 187px;
-    margin: 4%;
-    
-}
-
 #feedbacks {
     display:block;
 }
